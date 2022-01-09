@@ -6,8 +6,9 @@ import Receipt from "./Receipt";
 // This is where we get the receipt data and the component for our receipts
 
 export default function Layout() {
-  return <div>
-     {receipts.map((receipt) => {return <Receipt receipt = {receipt} />})}
-  </div>;
- }
-
+  return( <div>
+     {receipts.map((receipt) => {return <Receipt receipt = {receipt} />})
+     }
+  </div>)
+  }
+  

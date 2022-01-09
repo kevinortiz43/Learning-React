@@ -11,7 +11,6 @@ export default function Receipt(props) {
       <p> Sauce: {props.receipt.order.sauce} </p>
       <p> Drink: {props.receipt.order.drink} </p>
       <p> Cost: ${props.receipt.order.cost} </p>
-      <p> Paid: {props.receipt.paid}</p>
 
     </div>
   );

@@ -1,11 +1,15 @@
-function Kitchen(props){
-    return(
-        <div>
-           <h1>{props.Kitchen}</h1>
-            <h1>{props.Oven}</h1>
-            <h1>{props.Sink}</h1>
-        </div>
-    )
+import Sink from "./Sink";
+import Oven from "./Oven";
+
+function Kitchen(props) {
+  return (
+    <div className="Kitchen">
+      <h1>Kitchen</h1>
+      <Sink />
+      <Oven />
+
+    </div>
+  );
 }
 
 export default Kitchen;

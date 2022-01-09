@@ -22,3 +22,39 @@ div {
   padding: 5px;
 
   }
+
+  .FloorPlan {
+    display: grid;
+    grid-template-areas:
+      "bath1 bath1 bath1 bath1 kitchen"
+      "bath1 bath1 bath1 bath1 kitchen"
+      "bath1 bath1 bath1 bath1 kitchen"
+      "bath1 bath1 bath1 bath1 kitchen"
+      
+      
+      
+      
+  }
+  *{
+    border:solid
+  }
+  .bath1{
+    border: solid;
+    display: grid;
+    grid-area: bath1;
+  }
+  
+  .Kitchen{
+  display: grid;
+  grid-area: kitchen ;
+  }
+  
+  .Oven{
+    display: grid;
+    grid-area: oven;
+  }
+  
+  .Sink{
+    display: grid;
+    grid-area: sink;
+  }
