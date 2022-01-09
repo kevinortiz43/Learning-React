@@ -1,25 +1,13 @@
-.App {
-  text-align: center;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-div{
-display: grid;
-justify-content: center;
-/* padding-top: 5%; */
-grid-template-columns: repeat(1, 250px);
-}
+.receipt {
+  display: grid;
+  border: solid;
+  margin: 150px;
+  padding: 10px;
+  font-size: larger;
+  background-color: lightblue;
+  border-color: red;
+  color: #5829ac;
+  justify-items: center;
+  
+};

@@ -2,7 +2,10 @@ export default function Receipt(props) {
     // this is my receipts component
   console.log(props)
     return (
-    <div>
+     
+      
+      <div className="receipt">
+      <h1>Receipts</h1>
       <p> Person: {props.receipt.person} </p>
       <p> Main: {props.receipt.order.main} </p>
       <p> Protein: {props.receipt.order.protein} </p>
