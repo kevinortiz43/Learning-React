@@ -13,12 +13,13 @@
   color: white;
 }
 
-div {
+.App-link {
+  color: #61dafb;
+}
 
-  border: 1px solid grey;
-
-  margin: 5px;
-
-  padding: 5px;
-
-  }
+div{
+display: grid;
+justify-content: center;
+/* padding-top: 5%; */
+grid-template-columns: repeat(1, 250px);
+}

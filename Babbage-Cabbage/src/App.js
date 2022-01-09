@@ -9,6 +9,9 @@ function App() {
       
         <Header
           CompanyName = "Babbage Cabbage"
+          // sending down the props (properties)
+          // sending down pproperties from 
+          //parent to child
           EventName = "50 for 50"
           EventDate = "January 7th-9th from 9:00am - 3:00pm"
           image = "https://static.vecteezy.com/system/resources/thumbnails/001/879/892/small/50-percent-off-3d-lettering-promotion-free-vector.jpg"
