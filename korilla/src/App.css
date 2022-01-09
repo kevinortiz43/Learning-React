@@ -1,13 +1,16 @@
-
 .receipt {
   display: grid;
   border: solid;
-  margin: 150px;
+  margin: 50px;
   padding: 10px;
   font-size: larger;
   background-color: lightblue;
   border-color: red;
   color: #5829ac;
   justify-items: center;
-  
-};
+}
+
+.Layout {
+  display: flex;
+  flex-direction: row;
+}
