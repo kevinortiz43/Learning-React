@@ -35,11 +35,7 @@ div {
       "BedRoom3   BedRoom3   BedRoom3   BedRoom3"
       "BedRoom3   BedRoom3   BedRoom3   BedRoom3"
       "BedRoom3   BedRoom3   BedRoom3   BedRoom3"
-      "BedRoom3   BedRoom3   BedRoom3   BedRoom3"
-
-
-
-    ;
+      "BedRoom3   BedRoom3   BedRoom3   BedRoom3" ;
 
   }
   .Bath1{
@@ -63,22 +59,11 @@ div {
     background-color: crimson;
     border: solid;
   }
-.BedRoom1{
+.BedRoom{
     grid-area: BedRoom1;
     background-color: darkgreen;
     border: solid;
   }
-
-.BedRoom2{
-  grid-area: BedRoom2;
-  background-color: darkgreen;
-  border: solid;
-}
-.BedRoom3{
-  grid-area: BedRoom3;
-  background-color: darkgreen;
-  border: solid;
-}
 .appliance{
   border: dashed;
   background-color: cadetblue

@@ -2,7 +2,7 @@ function BedRoom(props){
        
 
     return(
-        <div>
+        <div className="BedRoom">
             <h1>BedRoom {props.bedNum}</h1>  
                 
         </div>
