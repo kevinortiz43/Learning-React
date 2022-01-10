@@ -1,18 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 div {
 
   border: 1px solid grey;
@@ -22,49 +7,3 @@ div {
   padding: 5px;
 
   }
-  .Floorplan{
-    display: grid;
-    grid-template-areas: 
-      "Bath1       BedRoom1   BedRoom1  Kitchen"
-      "Bath1       BedRoom1   BedRoom1  Kitchen"
-      "LivingRoom LivingRoom LivingRoom Kitchen"
-      "LivingRoom LivingRoom LivingRoom Kitchen"
-      "BedRoom2   BedRoom2   BedRoom2   Bath2"
-      "BedRoom2   BedRoom2   BedRoom2   Bath2"
-      "BedRoom2   BedRoom2   BedRoom2   Bath2"
-      "BedRoom3   BedRoom3   BedRoom3   BedRoom3"
-      "BedRoom3   BedRoom3   BedRoom3   BedRoom3"
-      "BedRoom3   BedRoom3   BedRoom3   BedRoom3"
-      "BedRoom3   BedRoom3   BedRoom3   BedRoom3" ;
-
-  }
-  .Bath1{
-    grid-area: Bath1;
-  background-color: blue;
-  border: solid;
-  }
-  .Bath2{
-    grid-area: Bath2;
-    background-color:blue;
-    border: solid;
-  }
-  .Kitchen{
-    grid-area: Kitchen;
-    background-color: coral;
-    border: solid;
-
-  }
-  .LivingRoom{
-    grid-area: LivingRoom;
-    background-color: crimson;
-    border: solid;
-  }
-.BedRoom{
-    grid-area: BedRoom1;
-    background-color: darkgreen;
-    border: solid;
-  }
-.appliance{
-  border: dashed;
-  background-color: cadetblue
-}
