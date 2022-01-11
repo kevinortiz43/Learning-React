@@ -23,4 +23,4 @@ function FloorPlan(props) {
   );
 }
 
-export default FloorPlan;
+export default FloorPlan;                        
