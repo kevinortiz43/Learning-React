@@ -46,11 +46,11 @@ export default class Input extends Component {
     return (
       <form onSubmit={this.handleSubmit} className="cf">
        
-        <label htmlFor="item"> item: </label>
+        <label htmlFor="item"> Item: </label>
         <input id="item"onChange={this.handleChange}value={this.state.item}
           />
 
-        <label htmlFor="units"> units: </label>
+        <label htmlFor="units"> Units: </label>
         <input
         //  maxLength={13}
         // necessary for using max length
@@ -59,7 +59,7 @@ export default class Input extends Component {
           value={this.state.units}
           />
 
-        <label htmlFor="quantity"> quantity: </label>
+        <label htmlFor="quantity"> Quantity: </label>
         <input
           id="quantity"
           onChange={this.handleChange}

@@ -8,19 +8,19 @@ class Grocery extends React.Component {
       groceries: [
         {
           
-           item: "beer",
-           units: "12 oz",
-           quantity: 1,
-           isPurchased: false,
-        },
-        {
-           item: "soda",
+           item: "Beer",
            units: "12oz",
            quantity: 1,
            isPurchased: false,
         },
         {
-           item: "water",
+           item: "Soda",
+           units: "12oz",
+           quantity: 1,
+           isPurchased: false,
+        },
+        {
+           item: "Water",
            units: "1 gallon",
            quantity: 1,
            isPurchased: false,
@@ -41,6 +41,11 @@ class Grocery extends React.Component {
   
   addGroceries = (oneGrocery) => {
     this.setState({ groceries: [...this.state.groceries, oneGrocery] },console.log(oneGrocery));};
+
+    // displayIsPurchase = () =>{
+    //   this.setState({groceries: ? isPurchased : true})
+    // }
+    // <button>Display</button>
   render() {
     return (
       <div className="GroceryContainer">
