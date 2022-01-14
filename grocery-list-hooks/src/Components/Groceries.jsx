@@ -37,7 +37,7 @@ export default function Groceries(){
   // setGrocery => allows re-rendering  means of changing state. when we want to change it
   // useState is the hook . when we want to render it. sets up the state
 
-return <div>
+return <div className='GroceryContainer'>
     <Input addGroceries = {addGroceries}/>
 
     {grocery.map((grocery, index) => {return <Render grocery={grocery} key={index} />;})}

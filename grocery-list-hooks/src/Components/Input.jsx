@@ -12,7 +12,7 @@ export default function Input(props) {
   let [item, setItem] = useState("");
   let [units, setUnits] = useState("");
   let [quantity, setQuantity] = useState("");
-  let [purchased, setPurchased] = useState(false);
+  // let [purchased, setPurchased] = useState(false);
 
   let handleChange = (event) => {
     if (event.target.id === "item") {
