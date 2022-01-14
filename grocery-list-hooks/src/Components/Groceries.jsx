@@ -27,8 +27,8 @@ export default function Groceries(){
     ]
 
   let [grocery, setGrocery] = useState(groceries)
-  
-let addGroceries = (oneGrocery) => setGrocery([...grocery, oneGrocery]);
+
+  let addGroceries = (oneGrocery) => setGrocery([...grocery, oneGrocery]);
   
   
   // setGrocery

@@ -1,4 +1,17 @@
 .App {
   text-align: center;
 }
-
+.GroceryContainer {
+  border: solid;
+  margin: 20px;
+  padding: 30px;
+  background-color: lightskyblue;
+}
+Form {
+  display: flex;
+  justify-content: center;
+}
+.List {
+  display: flex;
+  justify-content: space-evenly
+}
