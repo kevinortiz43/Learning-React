@@ -47,18 +47,15 @@ export default class Input extends Component {
       <form onSubmit={this.handleSubmit} className="cf">
        
         <label htmlFor="item">item:</label>
-        <input
-          id="item"
-          onChange={this.handleChange}
-          value={this.state.item}
-          />
+        <input id="item"onChange={this.handleChange} value={this.state.item} />
 
         <label htmlFor="units">units:</label>
         <input
+        //  maxLength={13}
+        // necessary for using max length
           id="units"
           onChange={this.handleChange}
           value={this.state.units}
-          
           />
 
         <label htmlFor="quantity">quantity:</label>
