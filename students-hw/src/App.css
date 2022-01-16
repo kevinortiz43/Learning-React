@@ -1,3 +1,11 @@
- .App {
+.App {
+  display: inline-flex;
+  padding: 50px;
   text-align: center;
+  border: solid;
+  background-color: lightsteelblue;
+}
+.students{
+border: solid;
+margin: 25px;
 }

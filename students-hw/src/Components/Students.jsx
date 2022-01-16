@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Display from "./Display";
 
-
 export default function Students(props) {
-
   const [studentData, setStudentData] = useState({
     students: [
       {
@@ -35,19 +33,17 @@ export default function Students(props) {
           {
             date: "2019-01-09",
             score: 79,
-          }
-        ]
-      }
-    ]
-  })
-  
-  return(
-      <div>
-          {studentData.students.map((student, index) => {return <Display student={student} key={index} />;})}  
-          {/* can't map scores because ill be doing it outside the mapping */}
+          },
+        ],
+      },
+    ],
+  });
+
+  return (
+    <div>
+      {studentData.students.map((student, index) => {
+        return <Display student={student} key={index} />;
+      })}
     </div>
-)
-
-
-
+  );
 }
