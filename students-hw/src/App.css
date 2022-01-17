@@ -1,11 +1,17 @@
 .App {
   display: inline-flex;
-  padding: 50px;
+  padding: 25px;
   text-align: center;
-  border: solid;
-  background-color: lightsteelblue;
+  background-color: yellow;
 }
-.students{
-border: solid;
-margin: 25px;
+.students {
+  border: solid;
+  margin: 25px;
+  padding: 50px;
+  color: white;
+  /* background-color: purple; */
+  box-shadow: 10px 10px 10px black;
+  text-shadow: 1px 1px black;
+  border-radius: 100px;
+  background-image: linear-gradient(to right, purple, blue, green);
 }
