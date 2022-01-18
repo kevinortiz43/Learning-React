@@ -3,8 +3,8 @@ import React from "react";
 function Note() {
   return (
     <div className="note">
-      <h1> Title</h1>
-      <p> content</p>
+      <h1> Note </h1>
+      <p contentEditable="true" > </p>
     </div>
   );
 }
