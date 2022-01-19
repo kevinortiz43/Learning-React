@@ -6,9 +6,9 @@ function Starship() {
 
   useEffect(() => {
     axios
-      .get("https://swapi.dev/api/starships/?format=json")
+      .get("https://swapi.dev/api/starships/?page=2&format=json")
       .then((res) => {
-        console.log(res);
+        // console.log(res.data.results);
         setStarships(res.data.results);
       })
       .catch((err) => {
@@ -16,10 +16,22 @@ function Starship() {
       });
   }, []);
   return (
-    <div>
-      <ul>
-        {starships.map((starship) => (<li key={starship.name}>{starship.name}</li>))}
-      </ul>
+    <div className="Cards">
+       
+      {starships.map((starship, index) => (
+        <p key={index}> 
+        Ship Name: {starship.name} <br/>
+        Model: {starship.model}<br/>
+        Manufacturer: {starship.manufacturer}<br/>
+        Class: {starship.starship_class}<br/>
+        Crew: {starship.crew}<br/>
+        Cargo: {starship.cargo_capacity} tons <br/>
+        Cost:  {starship.cost_in_credits} credits
+
+
+         </p>
+        ))}
+       
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+body{
+background-color: rgb(29, 209, 161);
+}
+
+.nav-links {
+  display: flex;
+  background-color: rgb(235, 59, 90);
+  justify-content: space-evenly;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  background-color:
+  rgb(119, 139, 235)
+   ;
+  padding: 20px;
+  font-size: larger;
+}

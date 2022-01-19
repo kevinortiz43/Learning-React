@@ -8,35 +8,17 @@ function Nav() {
   return (
     <nav>
       <ul className="nav-links">
-     
-        <Link to="">
-          <li></li>
+        <Link to="cards">
+          <h1>Home</h1>
         </Link>
 
-        <Link to="">
-          <li></li>
+        <Link to="about">
+          <h1>About</h1>
         </Link>
-        
-        <Link to="">
-          <li></li>
+
+        <Link to="contact">
+          <h1>Contact us</h1>
         </Link>
-        
-        <Link to="">
-          <li></li>
-        </Link>
-        
-        <Link to="">
-          <li></li>
-        </Link>
-        
-        <Link to="">
-          <li></li>
-        </Link>
-        
-        <Link to="">
-          <li></li>
-        </Link>
-     
       </ul>
     </nav>
   );
