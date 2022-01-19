@@ -3,6 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
+      
       <h1 className="About">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere
         distinctio corporis odio? Molestiae, impedit. Ipsam, pariatur dolore.

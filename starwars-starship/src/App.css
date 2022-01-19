@@ -2,9 +2,7 @@
   text-align: center;
 }
 
-body{
-background-color: rgb(29, 209, 161);
-}
+
 
 .nav-links {
   display: flex;
@@ -25,9 +23,21 @@ p {
   width: 500px;
   height: 200px;
   margin: 10px;
-  background-color:
-  rgb(119, 139, 235)
-   ;
+  background-color: rgb(119, 139, 235);
   padding: 20px;
   font-size: larger;
+}
+
+.Contacts {
+  margin: 10px;
+  padding: 200px;
+  font-size: larger;
+  border: solid;
+}
+
+.About {
+  margin: 10px;
+  padding: 200px;
+  font-size: xx-large;
+  border: solid;
 }
