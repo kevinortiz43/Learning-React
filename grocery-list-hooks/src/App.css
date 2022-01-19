@@ -5,7 +5,7 @@
   border: solid;
   margin: 20px;
   padding: 30px;
-  background-color: lightskyblue;
+  background-color: rgba(41, 128, 185,1.0);
 }
 Form {
   display: flex;
