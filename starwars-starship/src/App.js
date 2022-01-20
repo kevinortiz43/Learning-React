@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./Components/Nav";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Starship from "./Components/Starship";
 // export const UserContext =React.createContext()
 
 // <UserContext.Provider Value ={{,}}>

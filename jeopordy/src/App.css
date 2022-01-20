@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.GameShow-Container {
+  background-color:red
+}
+
+.Get-Answer-Button {
+  background-color: aqua;
+}
+
+.Get-Question-Button {
+  background-color:green
+}
+
+.Points-Container {
+  background-color:yellow
+}
+
+.Points-Buttons {
+  background-color:pink
+}
+
+.Question {
+  background-color:orange
+}
+
+.Category {
+  background-color:purple
+}
+
+.Value {
+  background-color:slategrey
+}
