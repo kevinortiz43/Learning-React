@@ -24,9 +24,7 @@ const Starship = () => {
         const responseTwo = responses[1].data.results;
         const responesThree = responses[2].data.results;
         const responseFour = responses[3].data.results;
-        // use/access the results
 
-        console.log(responseOne);
         setStarShipOne(responseOne);
         setStarShipTwo(responseTwo);
         setStarShipThree(responesThree);
@@ -103,7 +101,6 @@ const Starship = () => {
           Cost: {starship.cost_in_credits} credits
         </p>
       ))}
-      
     </div>
   );
 };
