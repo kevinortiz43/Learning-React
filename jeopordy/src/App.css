@@ -2,40 +2,55 @@
   text-align: center;
 }
 
-html{
-  background-color: slategrey ;
+html {
+  background-color: rgba(149, 175, 192, 1);
 }
 
 .Category {
-  background-color:purple
+  font-size: large;
 }
 
 .GameShow-Container {
-  background-color:red
+  font-size: large;
 }
 
 .Get-Answer-Button {
   background-color: aqua;
+  font-size: x-large;
 }
 
 .Get-Question-Button {
-  background-color:green
+  background-color: lime;
+  font-size: x-large;
 }
 
 .Points-Container {
-  background-color:yellow
+  margin: 025px;
+  padding: 025px;
+  font-size: x-large;
+}
+
+.Jeopardy {
+  color: purple;
+  padding: 015px;
 }
 
 .Points-Buttons {
-  background-color:pink
+  background-color: orange;
+  padding: 015px;
+  font-size: x-large;
 }
 
 .Question {
-  background-color:orange
+  padding: 025px;
+  font-size: x-large;
 }
 
 .Value {
-  background-color:lime
+  padding: 025px;
+  font-size: large;
 }
 
-
+.Answer {
+  font-size: x-large;
+}

@@ -1,13 +1,12 @@
-import './App.css';
-import Jeopardy from './Components/Jeopardy';
-import Points from './Components/Points';
+import "./App.css";
+import Jeopardy from "./Components/Jeopardy";
+import Points from "./Components/Points";
 function App() {
   return (
     <div className="App">
-    
-    <Points /> <br/>
-
-    <Jeopardy />
+      <h1 className="Jeopardy"> Jeopardy</h1>
+      <Points /> <br />
+      <Jeopardy />
     </div>
   );
 }

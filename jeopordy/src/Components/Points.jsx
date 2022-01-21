@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-export default function Points(props) {
-  console.log(props)
+export default function Points() {
+
   let [count, setCount] = useState(0);
   const increment100 = () =>setCount(count + 100);
   const decrement100 = () => setCount(count - 100);
