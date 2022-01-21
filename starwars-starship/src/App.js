@@ -1,13 +1,9 @@
-import "./App.css";
 import Starships from "./Components/Starship";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./Components/Nav";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-
-// export const UserContext =React.createContext()
-// <UserContext.Provider Value ={{,}}>
-// </UserContext.Provider>
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (

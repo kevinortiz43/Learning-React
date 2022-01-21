@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-
-
 .nav-links {
   display: flex;
   background-color: rgb(235, 59, 90);
@@ -43,7 +41,7 @@ p {
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 15px 32px;
