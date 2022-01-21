@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Points from "./Points";
 import axios from "axios";
 
 export default function Jeopardy() {
@@ -53,6 +54,7 @@ export default function Jeopardy() {
           {hideQuestion ? <p>Answer: {gameShow.answer}</p> : null} <br />
         </div>
       ))}
+      {gameShow.map((points, index) => {  return <Points key={index} points = {points}  />})}
     </div>
   );
 }
