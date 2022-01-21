@@ -131,36 +131,33 @@ function Starship() {
     fetchData2("https://swapi.dev/api/starships/?page=1&format=json");
   }, []);
 
-
   return (
     <div>
-       <button className="button" onClick={() =>fetchData2(nextPage)}>Get Next Page</button>
-      <button className="button" onClick={() =>fetchData2(prevPage)}>Get Previous Page</button>
+      <button className="button" onClick={() => fetchData2(nextPage)}>
+        Get Next Page
+      </button>
+      <button className="button" onClick={() => fetchData2(prevPage)}>
+        Get Previous Page
+      </button>
 
-    
-    <div className="Cards">
-      {starships.map((starship, index) => (
-        
-        <p key={index}>
-          
-          Ship Name: {starship.name} <br />
-          Model: {starship.model}
-         
-          <br />
-          Manufacturer: {starship.manufacturer}
-          <br />
-          Class: {starship.starship_class}
-          <br />
-          Crew: {starship.crew}
-          <br />
-          Cargo: {starship.cargo_capacity} tons <br />
-          Cost: {starship.cost_in_credits} credits
-        </p>
-  
-  ))}
-  
+      <div className="Cards">
+        {starships.map((starship, index) => (
+          <p key={index}>
+            Ship Name: {starship.name} <br />
+            Model: {starship.model}
+            <br />
+            Manufacturer: {starship.manufacturer}
+            <br />
+            Class: {starship.starship_class}
+            <br />
+            Crew: {starship.crew}
+            <br />
+            Cargo: {starship.cargo_capacity} tons <br />
+            Cost: {starship.cost_in_credits} credits
+          </p>
+        ))}
+      </div>
     </div>
-  </div>
   );
 }
 
