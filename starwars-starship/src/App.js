@@ -6,9 +6,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 
 // export const UserContext =React.createContext()
-
 // <UserContext.Provider Value ={{,}}>
-
 // </UserContext.Provider>
 
 function App() {
