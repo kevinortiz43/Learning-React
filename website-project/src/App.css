@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-color: gray;
+}
+
+.nav-links {
+  display: flex;
+  background-color: rgb(235, 59, 90);
+  justify-content: space-evenly;
+}
+
+.Deals-Container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+
+.Deals-Store-Container{
+  border: solid;
+ /* display: flex; */
+ /* justify-content: space-evenly;
+ flex-wrap: wrap; */
+}
+.Deals {
+  border: solid;
+  margin: 5px;
+  /* height:auto; */
+  width: 310px;
+}
+
+.Rating-Percentage{
+  color: darkgreen;
+}
+
+.Next-Page{
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.Page{
+  font-size: larger;
+}
+
+.Previous-Page{
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
