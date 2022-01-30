@@ -10,7 +10,10 @@ export default function DealsStore(props) {
             <br />
             
       <p> Sale: ${props.deals.salePrice} </p> 
-      <p> Savings: {Math.round(props.deals.savings)}% </p>
+        {props.deals.savings > 50 ? <p style={{color:"green"}}> Savings: {Math.round(props.deals.savings)}% </p>: <p > Savings: {Math.round(props.deals.savings)}% </p>}  
+     
+      {/*  { deals.metacriticScore > 0 ? <p style={{color:"green"}}className="Rating-Percentage">{deals.metacriticScore}</p> :<p style={{color:"red"}}>No score available </p>} */}
   </div>);
 }
 
+           

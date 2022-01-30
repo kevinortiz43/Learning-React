@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "./components/App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
+
+//Challenge. Render all the notes inside notes.js as a seperate Note
+//component.

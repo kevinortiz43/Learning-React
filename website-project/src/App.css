@@ -1,41 +1,95 @@
 .App {
   text-align: center;
-  background-color: gray;
 }
 
-.nav-links {
-  display: flex;
-  background-color: rgb(235, 59, 90);
-  justify-content: space-evenly;
+.Deals-Category {
+  /* text-align: center; */
+  display: grid;
+  background-color: rgba(37, 204, 247, 1);
+  border: solid;
+  grid-template-areas:
+    "category directions directions pageSize"
+    "nothing4  searchBar searchBar nothing6"
+    "nothing2 buttons buttons nothing7";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-.Deals-Container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.Free-Videogame-Thumbnails{
+  border: solid;
   
 }
 
-
-.Deals-Store-Container{
-  border: solid;
- /* display: flex; */
- /* justify-content: space-evenly;
- flex-wrap: wrap; */
+.searchBar {
+  grid-area: searchBar;
 }
+
+.category {
+  grid-area: category;
+}
+
+.direction {
+  grid-area: directions;
+}
+
+.pageSize {
+  grid-area: pageSize;
+}
+
+.pageButtons {
+  grid-area: buttons;
+}
+
+.Deals-Container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgba(210, 218, 226, 1);
+}
+
 .Deals {
+  background-color: rgba(202, 211, 200, 1);
   border: solid;
   margin: 5px;
-  /* height:auto; */
-  width: 310px;
+  height: auto;
+  width: 315px;
+}
+.Deals-Store-Container {
+  border: solid;
+  background-color: rgba(236, 204, 104, 1);
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.Rating-Percentage{
-  color: darkgreen;
+.Free-Container {
+  display: flex;
+  background-color: rgba(210, 218, 226, 1);
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.Next-Page{
-  background-color: #4caf50;
+.Free {
+  background: rgba(202, 211, 200, 1);
+  border: solid;
+  margin: 5px;
+  width: 375px;
+}
+
+.Free-Store-Category {
+  background-color: rgba(37, 204, 247, 1);
+}
+.nav-links {
+  display: flex;
+  background-color: rgba(68, 189, 50, 1);
+  justify-content: space-evenly;
+}
+
+.Next-Page {
+  background-color: rgba(72, 84, 96, 1);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -45,13 +99,16 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  grid-area: next;
 }
-.Page{
+
+.Page {
   font-size: larger;
+  background-color: red;
 }
 
-.Previous-Page{
-  background-color: #4caf50;
+.Previous-Page {
+  background-color: rgba(72, 84, 96, 1);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -61,5 +118,24 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  grid-area: last;
 }
 
+.Rating-Percentage {
+  color: #3a0ca3;
+}
+
+.Video-Game-Thumbnails {
+  width: 250px;
+}
+
+.Categories {
+  border: solid;
+  background: rgba(248, 239, 186, 1);
+  width: 368px;
+  height: 397px;
+}
+
+.Deals-searchBar {
+  width: 275px;
+}
